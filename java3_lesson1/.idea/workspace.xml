@@ -35,7 +35,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainSomeClass">
+  <component name="RunManager" selected="Application.MainDB">
+    <configuration name="MainDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson2.MainDB" />
+      <module name="java3_lesson1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainLesson1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson1.MainLesson1" />
       <module name="java3_lesson1" />
@@ -64,6 +77,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainDB" />
         <item itemvalue="Application.MainSomeClass" />
         <item itemvalue="Application.MainLesson1" />
       </list>
@@ -87,8 +101,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/lesson1/SomeClass.java</url>
-          <line>61</line>
+          <line>60</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/lesson2/MainDB.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
