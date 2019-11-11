@@ -11,27 +11,27 @@ public class Task2 {
         File file4 = new File("src/main/java/lesson3/task2_4.txt");
         File file5 = new File("src/main/java/lesson3/task2_5.txt");
 
-        try (BufferedWriter bw = new BufferedWriter(new FileWriter(file1, true))) {
-
-            ArrayList<BufferedReader> listReader = new ArrayList<>();
-            listReader.add(new BufferedReader(new FileReader(file2)));
-            listReader.add(new BufferedReader(new FileReader(file3)));
-            listReader.add(new BufferedReader(new FileReader(file4)));
-            listReader.add(new BufferedReader(new FileReader(file5)));
-
-            for (BufferedReader o : listReader) {
-                String str;
-                while ((str = o.readLine()) != null) {
-                    bw.write(str + "\n");
-                }
-                o.close();
-            }
-
-            bw.flush();
-            bw.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+//        try (BufferedWriter bw = new BufferedWriter(new FileWriter(file1, true))) {
+//
+//            ArrayList<BufferedReader> listReader = new ArrayList<>();
+//            listReader.add(new BufferedReader(new FileReader(file2)));
+//            listReader.add(new BufferedReader(new FileReader(file3)));
+//            listReader.add(new BufferedReader(new FileReader(file4)));
+//            listReader.add(new BufferedReader(new FileReader(file5)));
+//
+//            for (BufferedReader o : listReader) {
+//                String str;
+//                while ((str = o.readLine()) != null) {
+//                    bw.write(str + "\n");
+//                }
+//                o.close();
+//            }
+//
+//            bw.flush();
+//            bw.close();
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
 
 
 
